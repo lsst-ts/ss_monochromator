@@ -73,8 +73,8 @@
 			<Item Name="MonoCommand.ctl" Type="VI" URL="../Typedefs/MonoCommand.ctl"/>
 			<Item Name="publishers.ctl" Type="VI" URL="../Typedefs/publishers.ctl"/>
 			<Item Name="slit.ctl" Type="VI" URL="../Typedefs/slit.ctl"/>
-			<Item Name="slitPosition.ctl" Type="VI" URL="../Typedefs/slitPosition.ctl"/>
 			<Item Name="SlitType.ctl" Type="VI" URL="../Typedefs/SlitType.ctl"/>
+			<Item Name="slitWidth.ctl" Type="VI" URL="../Typedefs/slitWidth.ctl"/>
 			<Item Name="SWStatus.ctl" Type="VI" URL="../Typedefs/SWStatus.ctl"/>
 			<Item Name="wavelength.ctl" Type="VI" URL="../Typedefs/wavelength.ctl"/>
 		</Item>
