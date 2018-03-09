@@ -96,6 +96,7 @@
 		<Item Name="ViewMain" Type="Folder">
 			<Item Name="main.vi" Type="VI" URL="../ViewMain/main.vi"/>
 		</Item>
+		<Item Name="geek_prism_icon_ifG_icon.ico" Type="Document" URL="../geek_prism_icon_ifG_icon.ico"/>
 		<Item Name="menu.rtm" Type="Document" URL="../../../Desktop/Monochromator/menu.rtm"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -112,6 +113,48 @@
 			</Item>
 			<Item Name="ComEvents.ctl" Type="VI" URL="../ts_labview_tcp/tcpTypedefs/ComEvents.ctl"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Monochromator Controller" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{EE525900-D906-499C-8330-77B2B2A3FFB8}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{AB2DB048-6DA9-4D36-A1C6-696AF364EA9F}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LSST.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{3B4118B6-41B5-438D-9EA7-98607A75DCB3}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Monochromator Controller</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Monochromator Controller</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B9DEA191-110C-40CD-9ED7-9E478D4E41D9}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Monochromator.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Monochromator Controller/Monochromator.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Monochromator Controller/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/geek_prism_icon_ifG_icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{931D1CC3-AE27-4496-8257-6EAB7AA0E3BA}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ViewMain/main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LSST</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Monochromator Controller</Property>
+				<Property Name="TgtF_internalName" Type="Str">Monochromator Controller</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 LSST</Property>
+				<Property Name="TgtF_productName" Type="Str">Monochromator Controller</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{A23C1E70-497D-4F27-80D6-F039293B2102}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Monochromator.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
