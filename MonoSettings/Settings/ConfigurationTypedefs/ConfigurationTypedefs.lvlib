@@ -7,7 +7,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Base" Type="Folder">
-		<Item Name="MonochromatorLimits.ctl" Type="VI" URL="../Base/MonochromatorLimits.ctl"/>
+		<Item Name="MonochromatorSettings.ctl" Type="VI" URL="../Base/MonochromatorSettings.ctl"/>
 		<Item Name="TCPConfiguration.ctl" Type="VI" URL="../Base/TCPConfiguration.ctl"/>
 	</Item>
 </Library>
