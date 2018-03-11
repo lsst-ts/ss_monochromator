@@ -1,0 +1,31 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>MonoSettings</Name>
+<NumElts>5</NumElts>
+<Boolean>
+<Name>Force Init</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>WavelengthMin</Name>
+<Val>300.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>WavelengthMax</Name>
+<Val>800.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>SlitWidthMin</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>SlitWidthMax</Name>
+<Val>7.00000000000000</Val>
+</DBL>
+</Cluster>
+</LvVariant>
+</LVData>
