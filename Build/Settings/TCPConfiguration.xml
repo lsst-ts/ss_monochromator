@@ -1,0 +1,35 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>TCPConfiguration</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>IP</Name>
+<Val>127.0.0.1</Val>
+</String>
+<U16>
+<Name>port_low</Name>
+<Val>50000</Val>
+</U16>
+<U16>
+<Name>port_up</Name>
+<Val>50000</Val>
+</U16>
+<I32>
+<Name>connection_timeout </Name>
+<Val>10</Val>
+</I32>
+<I32>
+<Name>reading_timeout</Name>
+<Val>10</Val>
+</I32>
+<I32>
+<Name>writing_timeout</Name>
+<Val>10</Val>
+</I32>
+</Cluster>
+</LvVariant>
+</LVData>
