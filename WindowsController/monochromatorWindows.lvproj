@@ -50,8 +50,8 @@
 		<Item Name="MonoEventsTypedefs" Type="Folder">
 			<Item Name="MonoControlsEvnts.ctl" Type="VI" URL="../Monochromator/MonoControlsEvnts.ctl"/>
 			<Item Name="MonoPublishers.ctl" Type="VI" URL="../Monochromator/MonoPublishers.ctl"/>
-			<Item Name="MonoStatus.ctl" Type="VI" URL="../WindowsController/MonoCommunicator/MonoStatus.ctl"/>
-			<Item Name="MonoStop.ctl" Type="VI" URL="../MonoPubSubData/MonoStop.ctl"/>
+			<Item Name="MonoStatus.ctl" Type="VI" URL="../../Typedefs/MonoStatus.ctl"/>
+			<Item Name="MonoStop.ctl" Type="VI" URL="../../Typedefs/MonoStop.ctl"/>
 		</Item>
 		<Item Name="MonoPubSubData" Type="Folder">
 			<Item Name="MonoPubSubData.lvclass" Type="LVClass" URL="../MonoPubSubData/MonoPubSubData.lvclass"/>
@@ -97,7 +97,7 @@
 			<Item Name="main.vi" Type="VI" URL="../ViewMain/main.vi"/>
 		</Item>
 		<Item Name="geek_prism_icon_ifG_icon.ico" Type="Document" URL="../geek_prism_icon_ifG_icon.ico"/>
-		<Item Name="menu.rtm" Type="Document" URL="../../../Desktop/Monochromator/menu.rtm"/>
+		<Item Name="menu.rtm" Type="Document" URL="../menu.rtm"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -112,6 +112,7 @@
 				<Item Name="FindEmptyElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindEmptyElement.vi"/>
 				<Item Name="FindFirstTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindFirstTag.vi"/>
 				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
