@@ -10,6 +10,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="CommandFunctionalities" Type="Folder">
+			<Item Name="CommandFactory.lvclass" Type="LVClass" URL="../Commands/CommandFactory/CommandFactory.lvclass"/>
+			<Item Name="commandList.ctl" Type="VI" URL="../Commands/CommandFactory/commandList.ctl"/>
+			<Item Name="CommandQueue.lvclass" Type="LVClass" URL="../Commands/CommandQueue/CommandQueue.lvclass"/>
+		</Item>
+		<Item Name="Commands" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="ChangeSlitWidth.lvclass" Type="LVClass" URL="../Commands/ChangeSlitWidth/ChangeSlitWidth.lvclass"/>
+			<Item Name="ChangeWavelength.lvclass" Type="LVClass" URL="../Commands/ChangeWavelength/ChangeWavelength.lvclass"/>
+			<Item Name="Command.lvclass" Type="LVClass" URL="../Commands/Command/Command.lvclass"/>
+			<Item Name="SelectGrating.lvclass" Type="LVClass" URL="../Commands/SelectGrating/SelectGrating.lvclass"/>
+		</Item>
 		<Item Name="Monochromator" Type="Folder">
 			<Item Name="Monochromator.lvclass" Type="LVClass" URL="../Monochromator/Monochromator.lvclass"/>
 		</Item>
@@ -38,7 +50,7 @@
 				<Item Name="JYGetSlits.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYGetSlits.vi"/>
 				<Item Name="JYInitMono.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYInitMono.vi"/>
 				<Item Name="JYMirrorMove.vi" Type="VI" URL="../WindowsController/USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYMirrorMove.vi"/>
-				<Item Name="JYMoveMono.vi" Type="VI" URL="../WindowsController/USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYMoveMono.vi"/>
+				<Item Name="JYMoveMono.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYMoveMono.vi"/>
 				<Item Name="JYMoveToWavelength.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYMoveToWavelength.vi"/>
 				<Item Name="JYSlits.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYSlits.vi"/>
 				<Item Name="JYTurret.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYTurret.vi"/>
@@ -74,6 +86,7 @@
 			<Item Name="AckType.ctl" Type="VI" URL="../../Typedefs/AckType.ctl"/>
 			<Item Name="DeviceStatus.ctl" Type="VI" URL="../../Typedefs/DeviceStatus.ctl"/>
 			<Item Name="GratingType.ctl" Type="VI" URL="../../Typedefs/GratingType.ctl"/>
+			<Item Name="monochromatorSetup.ctl" Type="VI" URL="../../Typedefs/monochromatorSetup.ctl"/>
 			<Item Name="MonoCommand.ctl" Type="VI" URL="../../Typedefs/MonoCommand.ctl"/>
 			<Item Name="publishers.ctl" Type="VI" URL="../../Typedefs/publishers.ctl"/>
 			<Item Name="slit.ctl" Type="VI" URL="../../Typedefs/slit.ctl"/>
@@ -148,15 +161,15 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{B9DEA191-110C-40CD-9ED7-9E478D4E41D9}</Property>
 				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Monochromator.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Monochromator Controller/Monochromator.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">LabVIEW.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Monochromator Controller/LabVIEW.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Monochromator Controller/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/geek_prism_icon_ifG_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{931D1CC3-AE27-4496-8257-6EAB7AA0E3BA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{280EBB25-43E9-4C58-8F34-9E38CFB9ABB7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ViewMain/main.vi</Property>
@@ -169,7 +182,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 LSST</Property>
 				<Property Name="TgtF_productName" Type="Str">Monochromator Controller</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A23C1E70-497D-4F27-80D6-F039293B2102}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Monochromator.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LabVIEW.exe</Property>
 			</Item>
 		</Item>
 	</Item>
