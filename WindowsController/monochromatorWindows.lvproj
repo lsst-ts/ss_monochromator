@@ -155,21 +155,21 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Monochromator Controller</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Build</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B9DEA191-110C-40CD-9ED7-9E478D4E41D9}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Monochromator Controller/LabVIEW.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Build/LabVIEW.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Monochromator Controller/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Build/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/geek_prism_icon_ifG_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{280EBB25-43E9-4C58-8F34-9E38CFB9ABB7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2569BD91-99DC-4281-AE1B-271272BB1E6B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ViewMain/main.vi</Property>
