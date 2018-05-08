@@ -5,14 +5,14 @@
 <Name>Value</Name>
 <Cluster>
 <Name>MonoSettings</Name>
-<NumElts>5</NumElts>
+<NumElts>6</NumElts>
 <Boolean>
 <Name>Force Init</Name>
 <Val>0</Val>
 </Boolean>
 <DBL>
 <Name>WavelengthMin</Name>
-<Val>250.00000000000000</Val>
+<Val>300.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>WavelengthMax</Name>
@@ -24,7 +24,11 @@
 </DBL>
 <DBL>
 <Name>SlitWidthMax</Name>
-<Val>10.00000000000000</Val>
+<Val>8.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>timeout</Name>
+<Val>600.00000000000000</Val>
 </DBL>
 </Cluster>
 </LvVariant>

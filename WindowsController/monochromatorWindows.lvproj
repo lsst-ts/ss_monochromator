@@ -49,7 +49,7 @@
 				<Item Name="JYGetMonos.vi" Type="VI" URL="../WindowsController/USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYGetMonos.vi"/>
 				<Item Name="JYGetSlits.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYGetSlits.vi"/>
 				<Item Name="JYInitMono.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYInitMono.vi"/>
-				<Item Name="JYMirrorMove.vi" Type="VI" URL="../WindowsController/USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYMirrorMove.vi"/>
+				<Item Name="JYMirrorMove.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYMirrorMove.vi"/>
 				<Item Name="JYMoveMono.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYMoveMono.vi"/>
 				<Item Name="JYMoveToWavelength.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYMoveToWavelength.vi"/>
 				<Item Name="JYSlits.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYSlits.vi"/>
@@ -159,7 +159,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B9DEA191-110C-40CD-9ED7-9E478D4E41D9}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/LabVIEW.exe</Property>
