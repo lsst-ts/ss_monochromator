@@ -8,7 +8,7 @@
 <NumElts>6</NumElts>
 <Boolean>
 <Name>Force Init</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <DBL>
 <Name>WavelengthMin</Name>
