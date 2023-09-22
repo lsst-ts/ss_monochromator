@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -31,22 +31,21 @@
 		</Item>
 		<Item Name="MonoDriver" Type="Folder">
 			<Item Name="Example" Type="Folder">
-				<Item Name="JY Mono Example.vi" Type="VI" URL="../WindowsController/USBmonos_Win7_64bit_LV2012/JY Mono Example.vi"/>
+				<Item Name="JY Mono Example.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/JY Mono Example.vi"/>
 			</Item>
 			<Item Name="Monochromator VI API Toolkit" Type="Folder">
-				<Item Name="Get All Components From Config Browser.vi" Type="VI" URL="../WindowsController/USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/Get All Components From Config Browser.vi"/>
+				<Item Name="Get All Components From Config Browser.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/Get All Components From Config Browser.vi"/>
 				<Item Name="Get Monos From Config Browser.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/Get Monos From Config Browser.vi"/>
 				<Item Name="GetDetailsForSelectedTurret.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/GetDetailsForSelectedTurret.vi"/>
-				<Item Name="GetDeviceByType.vi" Type="VI" URL="../WindowsController/USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/GetDeviceByType.vi"/>
-				<Item Name="GetDeviceList.vi" Type="VI" URL="../WindowsController/USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/GetDeviceList.vi"/>
+				<Item Name="GetDeviceByType.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/GetDeviceByType.vi"/>
+				<Item Name="GetDeviceList.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/GetDeviceList.vi"/>
 				<Item Name="IsBusy.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/IsBusy.vi"/>
-				<Item Name="JY Close Shutter.vi" Type="VI" URL="../WindowsController/USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JY Close Shutter.vi"/>
-				<Item Name="JY Open Shutter.vi" Type="VI" URL="../WindowsController/USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JY Open Shutter.vi"/>
-				<Item Name="JYAddDevice.vi" Type="VI" URL="../WindowsController/USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYAddDevice.vi"/>
+				<Item Name="JY Close Shutter.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JY Close Shutter.vi"/>
+				<Item Name="JY Open Shutter.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JY Open Shutter.vi"/>
+				<Item Name="JYAddDevice.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYAddDevice.vi"/>
 				<Item Name="JYCalibrate.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYCalibrate.vi"/>
 				<Item Name="JYGetCurrentWL.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYGetCurrentWL.vi"/>
-				<Item Name="JYGetMirrorPos.vi" Type="VI" URL="../WindowsController/USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYGetMirrorPos.vi"/>
-				<Item Name="JYGetMonos.vi" Type="VI" URL="../WindowsController/USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYGetMonos.vi"/>
+				<Item Name="JYGetMonos.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYGetMonos.vi"/>
 				<Item Name="JYGetSlits.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYGetSlits.vi"/>
 				<Item Name="JYInitMono.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYInitMono.vi"/>
 				<Item Name="JYMirrorMove.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYMirrorMove.vi"/>
@@ -54,7 +53,7 @@
 				<Item Name="JYMoveToWavelength.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYMoveToWavelength.vi"/>
 				<Item Name="JYSlits.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYSlits.vi"/>
 				<Item Name="JYTurret.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYTurret.vi"/>
-				<Item Name="Mono Test App.vi" Type="VI" URL="../WindowsController/USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/Mono Test App.vi"/>
+				<Item Name="Mono Test App.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/Mono Test App.vi"/>
 				<Item Name="RefnumOrUniqueID.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/RefnumOrUniqueID.vi"/>
 				<Item Name="Show Current Grating.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/Show Current Grating.vi"/>
 			</Item>
@@ -104,7 +103,7 @@
 			<Item Name="TCPSettings.lvclass" Type="LVClass" URL="../../ts_labview_tcp/TCPSettings/TCPSettings.lvclass"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
-			<Item Name="example.vi" Type="VI" URL="../WindowsController/Test/example.vi"/>
+			<Item Name="example.vi" Type="VI" URL="../Test/example.vi"/>
 		</Item>
 		<Item Name="ViewMain" Type="Folder">
 			<Item Name="main.vi" Type="VI" URL="../ViewMain/main.vi"/>
@@ -140,6 +139,7 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
 			<Item Name="ComEvents.ctl" Type="VI" URL="../../ts_labview_tcp/tcpTypedefs/ComEvents.ctl"/>
+			<Item Name="JYGetMirrorPos.vi" Type="VI" URL="../USBmonos_Win7_64bit_LV2012/Monochromator VI API Toolkit.llb/JYGetMirrorPos.vi"/>
 			<Item Name="menu.rtm" Type="Document" URL="../../../../Desktop/Monochromator/menu.rtm"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -148,6 +148,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{EE525900-D906-499C-8330-77B2B2A3FFB8}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{AB2DB048-6DA9-4D36-A1C6-696AF364EA9F}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LSST.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3B4118B6-41B5-438D-9EA7-98607A75DCB3}</Property>
@@ -159,7 +160,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B9DEA191-110C-40CD-9ED7-9E478D4E41D9}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/LabVIEW.exe</Property>
