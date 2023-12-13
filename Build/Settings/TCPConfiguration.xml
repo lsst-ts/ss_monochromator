@@ -8,7 +8,7 @@
 <NumElts>6</NumElts>
 <String>
 <Name>IP</Name>
-<Val>127.0.0.1</Val>
+<Val>localhost</Val>
 </String>
 <U16>
 <Name>port_low</Name>
@@ -20,15 +20,15 @@
 </U16>
 <I32>
 <Name>connection_timeout </Name>
-<Val>10</Val>
+<Val>1500</Val>
 </I32>
 <I32>
 <Name>reading_timeout</Name>
-<Val>10</Val>
+<Val>50</Val>
 </I32>
 <I32>
 <Name>writing_timeout</Name>
-<Val>10</Val>
+<Val>1500</Val>
 </I32>
 </Cluster>
 </LvVariant>
