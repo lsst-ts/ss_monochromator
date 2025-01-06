@@ -172,8 +172,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B9DEA191-110C-40CD-9ED7-9E478D4E41D9}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">labVIEW.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/labVIEW.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -182,7 +183,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Build/Settings</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/geek_prism_icon_ifG_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1875AB4C-A327-4EBB-B345-3524695E64D6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{50445ECD-486D-4644-B7AC-A98BA675B646}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ViewMain/main.vi</Property>
@@ -260,7 +261,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{5E107AF3-E64B-4567-9A23-893058F88DB1}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">monochromatorWindows</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20008014</Property>
 				<Property Name="MSI_arpCompany" Type="Str">AURA/Rubin Observatory</Property>
